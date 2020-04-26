@@ -29,7 +29,7 @@
   border-right: 200px solid red;
   padding-left: 50px;
   padding-right: 50px;
-  height: 400px;
+  height: 420px;
   text-align: center;
 }
 
@@ -42,7 +42,17 @@
 }
 
 .columnheads {
-  color: red;
+  color: darkorange;
   font-size: 30px;
   font-style: italic;
+}
+
+@media screen and (min-width: 480px) {
+  body {
+    background-color: black;
+  }
+  .sectionscolumns {
+    width: 500px;
+    color: darkgreen;
+  }
 }
